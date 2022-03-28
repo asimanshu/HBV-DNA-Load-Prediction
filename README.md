@@ -21,11 +21,12 @@ Deployment method: The app has been developed using explainer dashboard and has 
 		
 	$ gunicorn -w 3 -b localhost:8050 dashboard:app
 6. Now for deploying at heroku follow the instructions from here https://github.com/asimanshu/Interactive_COVID_19_Dashboard_deployed_using_heroku
+
 ### Do not forget to install gunicorn from your requirement file. 
 ### If problem persists in deplyoment, do run '$ heroku logs --tail' on your terminal from the directory or '$ heroku logs --tail --app your_app_name' from outside the directory.
 
 Based on the complexity of your dataset, it may incur problem sometimes during reload after the deployment, please try to repload it several times or update the deployment. 
 
-This project is at its juveile stage. I am planning to build dashboard with regression and classifier for the prediction of HBV DNA load or its grading sytem in near future.
+This project is at its juvenile stage. I am planning to build dashboard with regression and classifier for the prediction of HBV DNA load or its grading sytem in near future.
 
  
