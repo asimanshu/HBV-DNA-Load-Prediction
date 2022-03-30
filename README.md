@@ -14,7 +14,8 @@ Deployment method: The app has been developed using explainer dashboard and has 
 4. Then open the dashboard.py file and paste the following command at the bottom.
 	>> db = ExplainerDashboard.from_config("dashboard.yaml")
 	>> app = db.flask_server()
-5. Start the gunicorn server by the following command
+5. Start the gunicorn server by the following command:
+
 	$ gunicorn dashboard:app
 	
 		or
