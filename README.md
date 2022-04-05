@@ -2,7 +2,7 @@ This repository contains python script to build simple way to machine learning m
 
 About the data: The data contains age, gender, Hepatitis B serface Antigen (HBsAg) levels, Hepatitis B e Antigen (HBeAg) levels and HBV DNA load. HBV DNA load was the target of the model and other features were the predictors.
 
-About the App: The app shows the prediction by regression models for HBV DNA load. This kind of prediction is extremely helpful for the clinicians to select a therapy. HBsAg and HBeAg play a critical in such decision. The app has been deployed online on herokuapp.com and can be viewed at : https://aseem-hbv-ml-models.herokuapp.com/
+About the App: The app shows the prediction by regression models for HBV DNA load. This kind of prediction is extremely helpful for the clinicians to select a therapy. HBsAg and HBeAg play a critical in such decision. 
 
 Deployment method: The app has been developed using explainer dashboard and has been deployed on heroku app. The following steps can help you to deploy your dashboard:
 
